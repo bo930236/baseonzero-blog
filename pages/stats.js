@@ -1,6 +1,6 @@
 // import Link from '@/components/Link'
 import Analytics from 'components/metrics/Analytics'
-//import Twitter from '@/components/metrics/Twitter'
+import Twitter from '@/components/metrics/Twitter'
 import GithubPersonal from '@/components/metrics/GithubPersonal'
 import GitHub from '@/components/metrics/Github'
 import siteMetadata from '@/data/siteMetadata'
@@ -30,14 +30,14 @@ export default function Stats() {
             <GithubPersonal />
             <GitHub />
           </div>
-          {/*  <div className="grid w-full grid-cols-1 gap-4 py-2  sm:grid-cols-2">
+          <div className="grid w-full grid-cols-1 gap-4 py-2  sm:grid-cols-2">
             <Twitter type="followers" />
             <Twitter type="following" />
           </div>
           <div className="grid w-full grid-cols-1 gap-4 py-2 sm:grid-cols-2">
             <Twitter type="total_tweets" />
             <Analytics />
-          </div> */}
+          </div>
         </div>
         <h2 className="mb-4 mt-16 text-3xl font-bold tracking-tight text-black dark:text-white">
           My <span className="text-green-500">Spotify</span> Top Songs

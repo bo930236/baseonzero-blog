@@ -35,7 +35,3 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-
-Tweet.js
-Twitter.js
-twitter-user.js

@@ -1,6 +1,6 @@
 const experienceData = [
   {
-    title: 'Data Engineering Intern',
+    title: 'Frontend Engineer',
     company: 'Accenture',
     location: 'Ahmedabad, India',
     range: 'January 2022 - May 2022',

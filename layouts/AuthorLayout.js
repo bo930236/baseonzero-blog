@@ -91,7 +91,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <p className="sm:block md:hidden lg:hidden">
               I am always looking to learn new things. I am currently working on a few projects
               related to
-              <span className="font-semibold"> Image Processing and Machine Learning. </span>
+              <span className="font-semibold"> Web Development. </span>
               At the same time I am{' '}
               <RoughNotation
                 type="underline"
@@ -115,9 +115,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 strokeWidth="3"
                 show={true}
               >
-                <span className="text-black dark:text-white">
-                  Image Processing and Machine Learning.{' '}
-                </span>
+                <span className="text-black dark:text-white">Web Development. </span>
               </RoughNotation>
               At the same time I am{' '}
               <RoughNotation

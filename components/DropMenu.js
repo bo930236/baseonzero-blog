@@ -113,7 +113,7 @@ export default function DropMenu() {
                 </Link>
               )}
             </Menu.Item>
-            {/*  <Menu.Item>
+            <Menu.Item>
               {({ active }) => (
                 <Link href="/snippets">
                   <a
@@ -130,7 +130,7 @@ export default function DropMenu() {
                   </a>
                 </Link>
               )}
-            </Menu.Item> */}
+            </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link href="/projects">
@@ -167,7 +167,7 @@ export default function DropMenu() {
                 </Link>
               )}
             </Menu.Item>
-            {/*  <Menu.Item>
+            <Menu.Item>
               {({ active }) => (
                 <>
                   <Link>
@@ -211,10 +211,10 @@ export default function DropMenu() {
                   </Link>
                 </>
               )}
-            </Menu.Item> */}
+            </Menu.Item>
           </div>
-          {/* <div className="py-1"> */}
-          {/* <Menu.Item>
+          <div className="py-1">
+            <Menu.Item>
               {({ active }) => (
                 <Link href="/contact">
                   <a
@@ -231,26 +231,44 @@ export default function DropMenu() {
                   </a>
                 </Link>
               )}
-            </Menu.Item> */}
-          <Menu.Item>
-            {({ active }) => (
-              <Link href="/tags">
-                <a
-                  className={classNames(
-                    active
-                      ? 'bg-gray-200 text-gray-700 dark:bg-zinc-700 dark:text-gray-300'
-                      : 'bg-white text-zinc-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-gray-200 dark:hover:bg-zinc-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  <div className="flex flex-row">
-                    <FrameIcon className="mr-4 mt-0.5" /> Tags
-                  </div>
-                </a>
-              </Link>
-            )}
-          </Menu.Item>
-          {/* <Menu.Item>
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link href="/tags">
+                  <a
+                    className={classNames(
+                      active
+                        ? 'bg-gray-200 text-gray-700 dark:bg-zinc-700 dark:text-gray-300'
+                        : 'bg-white text-zinc-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-gray-200 dark:hover:bg-zinc-700',
+                      'block px-4 py-2 text-sm'
+                    )}
+                  >
+                    <div className="flex flex-row">
+                      <FrameIcon className="mr-4 mt-0.5" /> Tags
+                    </div>
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link href="/guestbook">
+                  <a
+                    className={classNames(
+                      active
+                        ? 'bg-gray-200 text-gray-700 dark:bg-zinc-700 dark:text-gray-300'
+                        : 'bg-white text-zinc-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-gray-200 dark:hover:bg-zinc-700',
+                      'block px-4 py-2 text-sm'
+                    )}
+                  >
+                    <div className="flex flex-row">
+                      <ChatBubbleIcon className="mr-4 mt-0.5" /> Guestbook
+                    </div>
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+            <Menu.Item>
               {({ active }) => (
                 <Link href="/uses">
                   <a
@@ -267,8 +285,8 @@ export default function DropMenu() {
                   </a>
                 </Link>
               )}
-            </Menu.Item> */}
-          {/* <Menu.Item>
+            </Menu.Item>
+            <Menu.Item>
               {({ active }) => (
                 <Link href="/now">
                   <a
@@ -285,8 +303,8 @@ export default function DropMenu() {
                   </a>
                 </Link>
               )}
-            </Menu.Item> */}
-          {/*   <Menu.Item>
+            </Menu.Item>
+            <Menu.Item>
               {({ active }) => (
                 <Link href="/stats">
                   <a
@@ -375,8 +393,26 @@ export default function DropMenu() {
                   </a>
                 </Link>
               )}
-            </Menu.Item> */}
-          {/* </div> */}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <Link href="/tweets">
+                  <a
+                    className={classNames(
+                      active
+                        ? 'bg-gray-200 text-gray-700 dark:bg-zinc-700 dark:text-gray-300'
+                        : 'bg-white text-zinc-700 hover:bg-gray-300 dark:bg-zinc-800 dark:text-gray-200 dark:hover:bg-zinc-700',
+                      'block px-4 py-2 text-sm'
+                    )}
+                  >
+                    <div className="flex flex-row">
+                      <TwitterLogoIcon className="mr-4 mt-0.5" /> Tweets
+                    </div>
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+          </div>
         </Menu.Items>
       </Transition>
     </Menu>

@@ -1,21 +1,21 @@
 const siteMetadata = {
-  title: 'Blog | Bobo Tsai',
-  author: 'Bobo Tsai',
+  title: 'Blog | Parth Desai',
+  author: 'Parth Desai',
   headerTitle: 'Mere Musings',
-  description: 'My personal blog where I share things',
-  snippets: 'Reuseable code snippets collected by Bobo',
+  description: 'My personal blog where I share my musings',
+  snippets: 'Reuseable code snippets collected by Parth',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://baseonzero.vercel.app/',
-  siteRepo: 'https://github.com/bo930236/baseonzero-blog',
+  siteUrl: 'https://musing.vercel.app',
+  siteRepo: 'https://github.com/pycoder2000/blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'bo930236@gmail.com',
-  github: 'https://github.com/bo930236',
-  twitter: 'https://twitter.com/baseonzero',
-  linkedin: 'https://www.linkedin.com/in/bobo-tsai-b82848171/',
-  website: 'https://baseonzero.vercel.app/',
+  email: 'desaiparth2000@gmail.com',
+  github: 'https://github.com/pycoder2000',
+  twitter: 'https://twitter.com/_ParthDesai_',
+  linkedin: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
+  website: 'https://parthdesai.vercel.app',
   locale: 'en-US',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
@@ -46,7 +46,7 @@ const siteMetadata = {
     },
   },
   socialAccount: {
-    twitter: 'baseonzero',
+    twitter: '_ParthDesai_',
   },
 }
 

@@ -35,7 +35,7 @@ export default function Stats() {
             <Twitter type="following" />
           </div>
           <div className="grid w-full grid-cols-1 gap-4 py-2 sm:grid-cols-2">
-            <Twitter type="total_s" />
+            <Twitter type="total_tweets" />
             <Analytics />
           </div>
         </div>

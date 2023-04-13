@@ -25,27 +25,12 @@ export default function Home({ posts }) {
           <div className="pt-6">
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hi, I am{' '}
-              <span className="text-primary-color-500 dark:text-primary-color-dark-500">Henok</span>
+              <span className="text-primary-color-500 dark:text-primary-color-dark-500">Bobo</span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               {`Welcome to ${siteMetadata.description}. I am a Frontend Engineer who is passionate about Web Development.`}
               side projects and learning new technologies.
             </h2>
-            <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
-              This is my place for{' '}
-              <RoughNotation
-                animate="true"
-                type="box"
-                show={true}
-                color="#0ea4e9"
-                animationDelay={1000}
-                animationDuration={2500}
-                className="text-slate-200"
-              >
-                thoughts, records & everything&nbsp;
-              </RoughNotation>
-              in between. Have a good read!
-            </p>
             <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
               This is my place for{' '}
               <RoughNotation
@@ -57,7 +42,7 @@ export default function Home({ posts }) {
                 animationDuration={2500}
                 className="text-slate-200"
               >
-                thoughts, reflections & everything&nbsp;
+                thoughts, records & everything&nbsp;
               </RoughNotation>
               in between. Have a good read!{' '}
               <div className="mt-8 text-slate-600 dark:text-slate-400">

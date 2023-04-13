@@ -47,8 +47,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Parth"
-                data-screen-name="@_ParthDesai_"
+                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Henok"
+                data-screen-name="@meaty_pirate"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -67,13 +67,14 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDelay={300}
                 animationDuration={3000}
               >
-                {text1} Currently, I am focused on building data pipelines and automating them at{' '}
+                {text1} I now work at{' '}
                 <Link
-                  href={'https://www.accenture.com/in-en'}
-                  className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                  href={'https://www.uspto.gov/'}
+                  className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-900"
                 >
-                  Accenture
+                  USPTO{' '}
                 </Link>
+                {text2}
               </RoughNotation>
             </p>
             <br />
@@ -81,7 +82,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               This is what I am doing right{' '}
               <Link
                 href={'/now'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-900"
               >
                 now
               </Link>
@@ -90,10 +91,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <p className="sm:block md:hidden lg:hidden">
               I am always looking to learn new things. I am currently working on a few projects
               related to
-              <span className="font-semibold">
-                {' '}
-                Natural Language Processing and Machine Learning.{' '}
-              </span>
+              <span className="font-semibold"> Image Processing and Machine Learning. </span>
               At the same time I am{' '}
               <RoughNotation
                 type="underline"
@@ -103,8 +101,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science.
+                actively on the lookout for new opportunities and challenges that come my way.
               </RoughNotation>
             </p>
             <p className="hidden md:block">
@@ -119,7 +116,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 show={true}
               >
                 <span className="text-black dark:text-white">
-                  Natural Language Processing and Machine Learning.{' '}
+                  Image Processing and Machine Learning.{' '}
                 </span>
               </RoughNotation>
               At the same time I am{' '}
@@ -131,8 +128,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science
+                actively on the lookout for new opportunities and challenges that come my way.
               </RoughNotation>
             </p>
             <br />
@@ -141,8 +137,8 @@ export default function AuthorLayout({ children, frontMatter }) {
               projects with new people. Feel free to reach out if you have anything to talk about,
               you can reach me through{' '}
               <Link
-                href={'mailto:desaiparth2000@gmail.com'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                href={'mailto:henok@hshiferaw.com'}
+                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-900"
               >
                 Mail
                 <svg
@@ -159,8 +155,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                   </g>
                 </svg>
               </Link>{' '}
-              or{' '}
-              <Link
+              {/*or{' '}
+               <Link
                 href={'https://api.whatsapp.com/send?phone=916358190818&text=hi'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
@@ -178,13 +174,13 @@ export default function AuthorLayout({ children, frontMatter }) {
                     </g>
                   </g>
                 </svg>
-              </Link>
+              </Link> */}
             </p>
             <br />
             <p>
               <Link
                 href={'/uses'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-900"
               >
                 Here
               </Link>{' '}
@@ -193,8 +189,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <br />
             <h1>About this site</h1>
             <p>
-              Welcome to my home on the internet. This site functions as a blog/portfolio, a place
-              to share code and thoughts. Opinions are my own.
+              This site functions as a blog/portfolio, a place to share code and thoughts. Opinions
+              are my own.
             </p>
             <p>
               I learnt how to build this site from the most awesome people in the community:
@@ -202,7 +198,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 <li>
                   <Link
                     href={'https://github.com/timlrx/tailwind-nextjs-starter-blog'}
-                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-900"
                   >
                     Timothy's Next.js and Tailwind CSS template
                     <svg
@@ -224,7 +220,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 <li>
                   <Link
                     href={'https://www.einargudni.com/'}
-                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+                    className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-900"
                   >
                     Einar Guðjónsson
                     <svg

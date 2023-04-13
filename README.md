@@ -1,26 +1,21 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/pycoder2000/blog/raw/master/public/static/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/hshiferaw/henoks.xyz/raw/master/public/static/images/logo.png" width="100" />
 </div>
 
 <h1 align="center">
-  Personal Blog - <em>Base on Zero</em>
+  Personal Blog - <em>Mere Musings</em>
 </h1>
 
 <p align="center">
-  This is my personal portfolio blog hosted <a href="https://baseonzero.vercel.app/" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
+  This is my personal portfolio blog hosted <a href="https://hshiferaw.me" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
 </p>
 
 <p align="center">
-  The original template is designed by <a href="https://github.com/timlrx" target="_blank">Timothy Lin</a> and can be found <a href="https://github.com/timlrx/tailwind-nextjs-starter-blog" target="_blank">here</a>. The demo for the same can be found <a href="https://tailwind-nextjs-starter-blog.vercel.app/" target="_blank">here</a>.
+  The original template is designed by <a href="https://github.com/timlrx" target="_blank">Timothy Lin</a> and can be found <a href="https://github.com/timlrx/tailwind-nextjs-starter-blog" target="_blank">here</a>. The demo for the same can be found <a href="https://tailwind-nextjs-starter-blog.vercel.app/" target="_blank">here</a> and <a href="https://musing.vercel.app/" target="_blank">here</a> 
 </p>
 
-<div align="center">
 
-<a href="https://baseonzero.vercel.app/" target="blank" >![View Demo](https://img.shields.io/badge/-View%20Demo%20-orange?color=%23DE1D8D&style=for-the-badge)</a>
-
-</div>
-
-![demo](https://github.com/pycoder2000/blog/raw/master/public/static/images/demo.png)
+![demo](https://github.com/hshiferaw/henoks.xyz/raw/master/public/static/images/demo.png)
 
 <div align="center">
 
@@ -75,6 +70,11 @@
    OAUTH_CLIENT_SECRET=
    NEXTAUTH_URL=
    SECRET=
+   TWITTER_API_KEY=
+   TWITTER_BEARER_TOKEN=
+   SPOTIFY_CLIENT_ID =
+   SPOTIFY_CLIENT_SECRET =
+   SPOTIFY_REFRESH_TOKEN =
    ```
 
 ## 🏗️ Building and Running for Production
@@ -195,30 +195,4 @@ The easiest way to deploy the template is to use the [Vercel Platform](https://v
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/timlrx/tailwind-nextjs-starter-blog)
 
-## 🍰 Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Commit your Changes
-
-   ```bash
-   git commit -m 'Add some Feature'
-   ```
-
-3. Push to the Branch
-
-   ```bash
-   git push origin main
-   ```
-
-4. Open a Pull Request
-
-<div align="center">
-
-<a href="https://makeapullrequest.com" target="blank" >![PRs Welcome](https://img.shields.io/badge/PR-Welcome-brightgreen?style=for-the-badge)</a>
-
-</div>

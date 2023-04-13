@@ -23,7 +23,7 @@ import {
 
 export const getServerSideProps = async () => {
   const response = await fetch(
-    'https://api.openweathermap.org/data/2.5/weather?lat=23.014770&lon=72.526330&appid=1b3c10c18e894eaf1fd63eedde53fa54&units=metric'
+    'https://api.openweathermap.org/data/2.5/weather?lat=35.227085&lon=-80.843124&appid=b203b84de01e3d03951df05cadfbea05&units=imperial'
   )
   const data = await response.json()
 
@@ -134,19 +134,19 @@ export default function Now(currentlyReading) {
         <div className="my-2">
           <h3>Where am I and what am I doing?</h3>
           <div className=" mt-4 mb-6 text-xs text-neutral-700 dark:text-neutral-400">
-            This page was automatically updated @ {date}-{month}-{year} {hour}:{minute}:{second}
+            This page was automatically updated @ {month}-{date}-{year} {hour}:{minute}:{second}
           </div>
         </div>
         {/* Misc */}
         <div>
           <div className="flex justify-between gap-5">
             <div className="mt-2 mb-10 w-1/2 rounded-md border border-gray-600 p-1 text-sm dark:border-gray-200">
-              <span className="ml-2 font-semibold">Location:</span> <span>Ahmedabad, India</span>
+              <span className="ml-2 font-semibold">Location:</span> <span>NC, USA</span>
               <br />
               <span className="ml-2 font-semibold">Weather:</span>{' '}
               <span>
                 <a
-                  href="https://weather.com/en-GB/weather/today/l/f42d9f8baa19b4d8d5e034449faa703839993366f64551a56a2b530297075dc2"
+                  href="https://weather.com/weather/today/l/c14508c99666d5748045529d29c9cc8b5d4ffc6be0e14077f97fed0371171522"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline-offset-1 hover:underline"
@@ -170,14 +170,14 @@ export default function Now(currentlyReading) {
                 <span>{currentlyReadingData[0].author}</span>
               </a>
               <br />
-              <span className="ml-2 font-semibold">Age:</span> <span>{ageString}</span>
+              <span className="ml-2 font-semibold">Mood:</span> <span>contented</span>
             </div>
           </div>
 
           <div className="-my-6 flex justify-between gap-5">
             <div className="mt-2 mb-10 w-1/2 rounded-md border border-gray-600 p-1 text-sm dark:border-gray-200">
               <span className="ml-2 font-semibold">Date:</span>{' '}
-              <span>{TodayDate.format('DD/MM/YYYY')}</span>
+              <span>{TodayDate.format('MM/DD/YYYY')}</span>
               <br />
               <span className="ml-2 font-semibold">Time:</span>{' '}
               <span>
@@ -213,39 +213,32 @@ export default function Now(currentlyReading) {
         {/* Work */}
         <div className="pb-4">
           <p>
-            I work as a Data Engineer at{' '}
+            I work as a Patent Examiner at{' '}
             <Link
-              href={'https://www.accenture.com/'}
+              href={'https://www.uspto.gov/'}
               className="special-underline no-underline dark:text-gray-100 hover:dark:text-gray-100"
             >
-              Accenture
+              USPTO
             </Link>
             .
           </p>
           <br />
           <p>
-            I work on building pipelines and automating the entire process using Scala and Gcloud.
+            May 21, 2022 - Recognized for Ten Years of Service in the Government of the United
+            States of America.
           </p>
           <br />
-          <p>
-            I have been trying to shift my field from Data Engineering to Data Science. I have been
-            constantly applying for the same as well.
-          </p>
+          <p>Sep 30, 2018 - Received U.S. Patent and Trademark Office Bronze Medal Award.</p>
           <br />
           <p>
-            My location preference is Bangalore but I am open to shift to another place for a better
-            opportunity.
-          </p>
-          <br />
-          <p>
-            I'm always trying to learn more, and at the moment I'm trying to follow this{' '}
+            I'm always trying to learn more, and at the moment I'm studying for my{' '}
             <Link
               href={
-                'https://www.youtube.com/watch?v=_u-PaJCpwiU&list=PLu0W_9lII9ai6fAMHp-acBmJONT7Y4BSG'
+                'https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/'
               }
               className="special-underline no-underline dark:text-gray-100 hover:dark:text-gray-100"
             >
-              Machine Learning tutorial
+              AZ-104 exam
             </Link>
             .
           </p>
@@ -266,12 +259,6 @@ export default function Now(currentlyReading) {
               This
             </Link>{' '}
             article is a great reason to start your blog.
-          </p>
-          <br />
-          <p>
-            I am also going to start applying for Masters in Data Science in August 2022 for intake
-            of Fall 2023. I hope to get a good university near the West Coast. I'll update this page
-            after I get my admits.
           </p>
           <br />
           <p>

@@ -1,30 +1,30 @@
 const siteMetadata = {
-  title: 'Blog | Parth Desai',
-  author: 'Parth Desai',
+  title: 'Blog | Henok Shiferaw',
+  author: 'Henok Shiferaw',
   headerTitle: 'Mere Musings',
   description: 'My personal blog where I share my musings',
-  snippets: 'Reuseable code snippets collected by Parth',
+  snippets: 'Reuseable code snippets collected by Henok',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://musing.vercel.app',
-  siteRepo: 'https://github.com/pycoder2000/blog',
+  siteUrl: 'https://hshiferaw.com',
+  siteRepo: 'https://github.com/hshiferaw/henoks.xyz',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
-  email: 'desaiparth2000@gmail.com',
-  github: 'https://github.com/pycoder2000',
-  twitter: 'https://twitter.com/_ParthDesai_',
-  linkedin: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
-  website: 'https://parthdesai.vercel.app',
+  image: '/static/images/avator.jpeg',
+  socialBanner: '/static/images/twitter1-card.png',
+  email: 'henok@hshiferaw.com',
+  github: 'https://github.com/hshiferaw',
+  twitter: 'https://twitter.com/meaty_pirate',
+  linkedin: 'https://www.linkedin.com/in/hshiferaw/',
+  website: 'https://hshiferaw.com',
   locale: 'en-US',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: 'G-F6V2QTJ628', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-MB6NWDGBDE', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
-    provider: 'emailOctopus',
+    provider: 'emailoctopus',
   },
   comment: {
     provider: 'giscus',
@@ -46,7 +46,7 @@ const siteMetadata = {
     },
   },
   socialAccount: {
-    twitter: '_ParthDesai_',
+    twitter: 'meaty_pirate',
   },
 }
 

@@ -25,10 +25,10 @@ export default function Home({ posts }) {
           <div className="pt-6">
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hi, I am{' '}
-              <span className="text-primary-color-500 dark:text-primary-color-dark-500">Parth</span>
+              <span className="text-primary-color-500 dark:text-primary-color-dark-500">Henok</span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              {`Welcome to ${siteMetadata.description}. I am a Data Engineer who is passionate about Data Science and Automation. In my free time, I like developing `}
+              {`Welcome to ${siteMetadata.description}. I am a Patent Examiner in electrical and software engineering, who is passionate about Data Science and Automation. In my free time, I like developing `}
               side projects and learning new technologies.
             </h2>
             <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
@@ -123,10 +123,10 @@ export default function Home({ posts }) {
                             d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
                           />
                         </svg>
-                        <span className="pr-6 text-gray-900 dark:text-gray-100">What I built</span>
+                        <span className="pr-6 text-gray-900 dark:text-gray-100">What I wrote</span>
                       </span>
                       <span className="pl-6 text-amber-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
-                        Projects&nbsp;&rarr;
+                        Papers&nbsp;&rarr;
                       </span>
                     </span>
                   </Link>
@@ -135,7 +135,7 @@ export default function Home({ posts }) {
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r from-fuchsia-600 to-emerald-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <Link href="https://parthdesai.vercel.app/">
+                  <Link href="https://hshiferaw.com/">
                     <span className="relative flex items-center divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
                       <span className="flex items-center space-x-5">
                         <svg
@@ -164,7 +164,7 @@ export default function Home({ posts }) {
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r  from-pink-600 to-purple-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <Link href="https://parthdesai.vercel.app/resume.pdf">
+                  <Link href="/resume.pdf">
                     <span className="relative flex items-center divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
                       <span className="flex items-center space-x-5">
                         <svg
@@ -184,7 +184,7 @@ export default function Home({ posts }) {
                           />
                         </svg>
                         <span className="pr-6 text-gray-900 dark:text-gray-100">
-                          Hire me!&nbsp;&nbsp;&nbsp;
+                          My Resume&nbsp;&nbsp;&nbsp;
                         </span>
                       </span>
                       <span className="pl-6 text-primary-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
@@ -229,7 +229,7 @@ export default function Home({ posts }) {
                             <h2 className="text-2xl font-bold leading-8 tracking-tight">
                               <Link
                                 href={`/blog/${slug}`}
-                                className="text-gray-900 transition duration-500 ease-in-out hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-500"
+                                className="text-slate-800 dark:text-slate-200"
                               >
                                 {title}
                               </Link>
@@ -265,7 +265,7 @@ export default function Home({ posts }) {
         </div>
       )}
       {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">{/* <NewsletterForm /> */}</div>
+        <div className="flex items-center justify-center pt-4">{<NewsletterForm />}</div>
       )}
     </>
   )

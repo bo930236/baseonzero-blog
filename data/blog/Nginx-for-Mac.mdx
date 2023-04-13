@@ -1,0 +1,30 @@
+---
+title: Nginx for Mac
+date: '2023-04-13'
+tags: [Nginx]
+draft: false
+summary: Nginx for Mac
+---
+### 安裝 nginx
+```
+$ brew install nginx
+```
+### 啟動
+```
+$ nginx    //localhost:8080  可以看到表示正常啟動
+$ nginx -v  //版本
+```
+### 停止
+```
+$ nginx -s stop
+```
+### 重啟
+```
+$ nginx -s reload
+```
+### 設定
+> 設定檔為 nginx.conf，可修改監聽 port 等
+```
+nginx -t //查看配置文件及根目錄路徑
+```
+

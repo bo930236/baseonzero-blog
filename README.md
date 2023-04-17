@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/bo930236/baseonzero-blog/raw/master/public/static/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/bo930236/baseonzero-blog/blob/main/public/static/images/logo.png" width="100" />
 </div>
 
 <h1 align="center">
@@ -18,7 +18,7 @@
 
 </div>
 
-![demo](https://github.com/bo930236/baseonzero-blog/raw/master/public/static/images/logo.png)
+![demo](https://github.com/bo930236/baseonzero-blog/blob/main/public/static/images/demo.png)
 
 ## 🛠 Installation & Set Up
 
@@ -183,7 +183,7 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 
 ## 📊 Google Lighthouse Performance Metrics
 
-![Google Lighthouse Performance Metrics](https://github.com/bo930236/baseonzero-blog/raw/master/public/static/images/Google%20Lighthouse%20Performance%20Metrics.png)
+![Google Lighthouse Performance Metrics](https://github.com/bo930236/baseonzero-blog/blob/main/public/static/images/Google%20Lighthouse%20Performance%20Metrics.png)
 
 ## 🚀 Deploy
 

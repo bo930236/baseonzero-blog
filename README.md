@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/bo930236/baseonzero-blog/blob/main/public/static/images/logo.png" width="300" />
+  <img alt="Logo" src="https://github.com/bo930236/baseonzero-blog/blob/main/public/static/images/logo.png" width="300" padding='0' margin='0'/>
   <h1>   Personal Blog - <em>Base on Zero</em> </h1>
 </div>
 

@@ -1,9 +1,9 @@
 <div align="center">
   <h1>   Personal Blog ---<em> Base on Zero <em> </h1>
-  <img alt="Logo" src="https://github.com/bo930236/baseonzero-blog/blob/main/public/static/images/logo.png" width="300" padding='0' margin='0'/>
+  <img alt="Logo" src="https://github.com/bo930236/baseonzero-blog/blob/main/public/static/images/logo.png" width="300" />
 </div>
 
-<p align="center" font-size='24px'>
+<p align="center">
   This is my personal portfolio blog hosted <a href="https://baseonzero.vercel.app/" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
 </p>
 

@@ -2,26 +2,26 @@ const siteMetadata = {
   title: 'Blog | BaseonZero',
   author: 'Bobo Tsai',
   headerTitle: 'Base on Zero',
-  description: 'My personal blog where I share my thoughts.',
-  snippets: 'Reuseable code snippets collected by Bobo',
+  description: 'my personal blog where I share my thoughts.',
+  snippets: 'Reusable code snippets collected by Bobo',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://baseonzero.vercel.app/',
   siteRepo: 'https://github.com/bo930236/boz-blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avator.jpeg',
+  image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter1-card.png',
   email: 'bo930236@gmail.com',
   github: 'https://github.com/bo930236',
   twitter: 'https://twitter.com/BoZ_baseonzero',
   linkedin: 'https://www.linkedin.com/in/bobo-tsai-b82848171/',
   website: 'https://baseonzero.vercel.app/',
-  locale: 'en-US',
+  locale: 'TW',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: 'G-MB6NWDGBDE', // e.g. UA-000000-2 or G-XXXXXXX
+    //googleAnalyticsId: 'G-MB6NWDGBDE', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     provider: 'emailoctopus',
@@ -46,7 +46,7 @@ const siteMetadata = {
     },
   },
   socialAccount: {
-    twitter: 'meaty_pirate',
+    twitter: 'baseonzero',
   },
 }
 

@@ -140,13 +140,13 @@ export default function Home({ posts }) {
                         <span className="pr-6 text-gray-900 dark:text-gray-100">Read my story</span>
                       </span>
                       <span className="pl-6 text-indigo-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
-                        Website&nbsp;&rarr;
+                        About&nbsp;&rarr;
                       </span>
                     </span>
                   </Link>
                 </div>
               </div>
-              {/* <div className="my-2 grid items-start gap-8">
+              <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r  from-pink-600 to-purple-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
                   <Link href="/resume.pdf">
@@ -178,7 +178,7 @@ export default function Home({ posts }) {
                     </span>
                   </Link>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

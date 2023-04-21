@@ -56,6 +56,7 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   images: {
     domains: [
+      'i.imgur.com', //project images
       'i.scdn.co', // Spotify Album Art
       'pbs.twimg.com',
       'cdn.discordapp.com', // discord url

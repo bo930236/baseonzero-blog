@@ -29,10 +29,11 @@ export default function Projects() {
                 imgSrc={d.imgSrc}
                 href={d.href}
                 github={d.github}
-                writer1={d.writer1}
-                writer2={d.writer2}
-                writer3={d.writer3}
-                writer4={d.writer4}
+                tech1={d.tech1}
+                tech2={d.tech2}
+                tech3={d.tech3}
+                tech4={d.tech4}
+                tech5={d.tech5}
               />
             ))}
           </div>

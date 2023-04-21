@@ -14,7 +14,7 @@ const ThemeSwitch = () => {
   const [ThemeSound] = useSound('/static/sounds/switch-on.mp3')
 
   const ThemeSwitch = () => {
-    setTheme(theme === 'dark' || resolvedTheme === 'dark' ? 'light' : 'dark')
+    setTheme(theme === 'light' || resolvedTheme === 'light' ? 'dark' : 'light')
   }
   return (
     <div className="ml-1 cursor-pointer rounded-full bg-zinc-300 ring-zinc-400 transition-all hover:bg-zinc-300 hover:ring-1 dark:bg-zinc-700 dark:ring-white dark:hover:bg-zinc-800">

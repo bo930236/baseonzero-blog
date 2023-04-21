@@ -1,6 +1,6 @@
 const experienceData = [
   {
-    title: 'Primary Patent Examiner',
+    title: 'Frontend Engineer',
     company: 'Trisoaring',
     //location: 'Ahmedabad, India',
     range: 'March 2023 - Present',

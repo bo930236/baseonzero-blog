@@ -1,18 +1,9 @@
 import SocialIcon from './social-icons'
 import FolderIcon from './icon'
+import Image from 'next/image'
+import LoadingSpinner from '@/components/LoadingSpinner'
 
-const Card = ({
-  title,
-  description,
-  imgSrc,
-  href,
-  github,
-  writer1,
-  writer2,
-  writer3,
-  writer4,
-  writer5,
-}) => (
+const Card = ({ title, description, imgSrc, href, github, tech1, tech2, tech3, tech4, tech5 }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
     <div className="h-full transform overflow-hidden rounded-md border-2 border-solid border-gray-200 bg-transparent bg-opacity-20 transition duration-500 hover:scale-105 hover:rounded-md hover:border-primary-500 hover:bg-gray-300 dark:border-gray-700 dark:hover:border-primary-color-dark-500 dark:hover:bg-gray-800">
       <div className="p-6">
@@ -30,11 +21,12 @@ const Card = ({
           </div>
         </div>
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
-
+        <Image src={imgSrc} alt="Picture of the author" width={600} height={400} />
+        <br />
         <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
         <div className="flex flex-row justify-between">
           <div className="text-sm text-gray-400">
-            {writer1} &#8226; {writer2} &#8226; {writer3} &#8226; {writer4} &#8226; {writer5}
+            {tech1} &#8226; {tech2} &#8226; {tech3} &#8226; {tech4} &#8226; {tech5}
           </div>
         </div>
       </div>

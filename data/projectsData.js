@@ -1,22 +1,26 @@
 const projectsData = [
   {
-    title:
-      'Statistical Analysis of Uncertainties in Deterministic Computational Modeling - Application to Composite Process Resin Infusion Flow Model.',
-    description: `Deterministic physics-based flow modeling provides an effective way to simulate and understand the resin flow infusion process in liquid composite molding processes and its variants. These are effective to provide optimal injection time and locations prior to gelation for given process parameters of resin viscosity and preform permeability.`,
-    imgSrc: '',
-    href: 'https://www.tandfonline.com/doi/full/10.1080/03610918.2013.815775',
-    writer1: 'V. A. Kelkar',
-    writer2: 'R. V. Mohan',
-    writer3: 'H. Shiferaw',
-    writer4: 'A. D. Kelkar',
+    title: 'JB-Camping',
+    description: `Implement frontend and backend separation through RESTful API to create a shopping website and management background for the fictional camping product brand JB Camping.`,
+    imgSrc: 'https://i.imgur.com/BDAQWjn.jpg',
+    href: 'https://jb-camping.onrender.com/',
+    github: 'https://github.com/bo930236/JB-Camping',
+    tech1: 'React',
+    tech2: 'Redux',
+    tech3: 'Node.js',
+    tech4: 'Express',
+    tech5: 'MongoDB',
   },
   {
-    title:
-      'Probabilistic Analysis of Property Uncertainties Using Resin Infusion Flow Modeling and Simulations – Resin Viscosity And Preform Permeability',
-    description: `For LCM processes modeling and optimization substantial amount of research and work has been done. Several researches have been done based one-dimensional mold filling models, thin-shell molds, and three-dimensional models that simulate the mold filling, and heat transfer and curing stages.`,
-    imgSrc: '',
-    href: 'https://digital.library.ncat.edu/do/search/?q=Henok%20Shiferaw&start=0&context=15883623&facet=',
-    writer1: 'H. Shiferaw',
+    title: 'BaseonZero-Blog',
+    description: `This is a blog I created myself to record my personal thoughts and learning techniques. In this space, I will constantly update my thinking and learning processes, hoping to constantly grow and improve myself.`,
+    imgSrc: 'https://i.imgur.com/Qa515Dy.png',
+    href: 'https://baseonzero.vercel.app/',
+    github: 'https://github.com/bo930236/baseonzero-blog',
+    tech1: 'Next.js',
+    tech2: 'Tailwind CSS',
+    tech3: 'Prisma',
+    tech4: 'PlanetScale',
   },
 ]
 

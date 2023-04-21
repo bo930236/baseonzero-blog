@@ -61,24 +61,6 @@ class MyDocument extends Document {
             sizes="16x16"
             href="/static/favicons/favicon-16x16.png"
           />
-          <link
-            rel="icon"
-            type="image/png"
-            href="/static/favicons/favicon-196x196.png"
-            sizes="196x196"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            href="/static/favicons/favicon-96x96.png"
-            sizes="96x96"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            href="/static/favicons/favicon-128.png"
-            sizes="128x128"
-          />
           <meta name="msapplication-TileImage" content="/static/favicons/mstile-144x144.png" />
           <meta name="msapplication-square70x70logo" content="/static/favicons/mstile-70x70.png" />
           <meta

@@ -21,7 +21,7 @@ const Card = ({ title, description, imgSrc, href, github, tech1, tech2, tech3, t
           </div>
         </div>
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
-        <Image src={imgSrc} alt="Picture of the author" width={600} height={400} />
+        <Image src={imgSrc} alt="Picture of the author" width={600} height={400} priority={true} />
         <br />
         <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
         <div className="flex flex-row justify-between">

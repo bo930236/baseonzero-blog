@@ -6,7 +6,7 @@ export default function AnalyticsCard() {
   const { data } = useSWR('/api/views', fetcher)
 
   const pageViews = new Number(data?.total)
-  const link = 'https://baseonzero.vercel.app/'
+  const link = 'https://baseonzero-blog.vercel.app/'
 
   return <MetricCard header="All-Time Views" link={link} metric={pageViews} isCurrency={false} />
 }

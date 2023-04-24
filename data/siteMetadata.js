@@ -6,7 +6,7 @@ const siteMetadata = {
   snippets: 'Reusable code snippets collected by Bobo',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://baseonzero.vercel.app/',
+  siteUrl: 'https://baseonzero-blog.vercel.app/',
   siteRepo: 'https://github.com/bo930236/boz-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
@@ -15,7 +15,7 @@ const siteMetadata = {
   github: 'https://github.com/bo930236',
   twitter: 'https://twitter.com/BoZ_baseonzero',
   linkedin: 'https://www.linkedin.com/in/bobo-tsai-b82848171/',
-  website: 'https://baseonzero.vercel.app/',
+  website: 'https://baseonzero-blog.vercel.app/',
   locale: 'TW',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app

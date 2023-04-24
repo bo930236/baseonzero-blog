@@ -15,7 +15,7 @@ const projectsData = [
     title: 'BaseonZero-Blog',
     description: `This is a blog I created myself to record my personal thoughts and learning techniques. In this space, I will constantly update my thinking and learning processes, hoping to constantly grow and improve myself.`,
     imgSrc: 'https://i.imgur.com/Qa515Dy.png',
-    href: 'https://baseonzero.vercel.app/',
+    href: 'https://baseonzero-blog.vercel.app/',
     github: 'https://github.com/bo930236/baseonzero-blog',
     tech1: 'Next.js',
     tech2: 'Tailwind CSS',

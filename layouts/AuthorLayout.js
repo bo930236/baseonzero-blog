@@ -71,7 +71,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               </RoughNotation>
             </p>
             <br />
-            <p>
+            {/* <p>
               This is what I am doing right{' '}
               <Link
                 href={'/now'}
@@ -80,7 +80,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 now
               </Link>
             </p>
-            <br />
+            <br /> */}
             <p className="sm:block md:hidden lg:hidden">
               I am always looking to learn new things. I am currently working on a few projects
               related to

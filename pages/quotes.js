@@ -47,9 +47,9 @@ export default function Quotes() {
                   <p className="relative text-neutral-700 dark:text-neutral-200">{item.quote}</p>
                 </div>
 
-{/*                 <footer className="mt-1">
+                <footer className="mt-1">
                   <p className="text-sm text-neutral-500 dark:text-neutral-500">- {item.author}</p>
-                </footer> */}
+                </footer>
               </blockquote>
             </li>
           ))}

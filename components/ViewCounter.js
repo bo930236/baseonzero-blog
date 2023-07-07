@@ -3,9 +3,6 @@ import useSWR from 'swr-old'
 import fetcher from 'lib/fetcher'
 
 export default function ViewCounter({ slug, className, blogPage = false }) {
-  let { data } = useSWR(`/api/views/${slug}`, fetcher)
-  let views = new Number(data?.total)
-
   useEffect(() => {
     let registerView = () =>
       fetch(`/api/views/${slug}`, {
@@ -16,6 +13,13 @@ export default function ViewCounter({ slug, className, blogPage = false }) {
       registerView()
     }
   }, [blogPage, slug])
+
+  let { data } = useSWR(`/api/views/${slug}`, fetcher)
+  let views = new Number(data?.total)
+
+  if (!data) {
+    return <span className={className}>Loading...</span>
+  }
 
   return <span className={className}>{`${views > 0 ? views.toLocaleString() : '–––'}`}</span>
 }

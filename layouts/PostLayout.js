@@ -221,7 +221,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
-            <footer>
+            <section>
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
                 {tags && (
                   <div className="py-4 xl:py-8">
@@ -268,7 +268,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   &larr; Back to the blog
                 </Link>
               </div>
-            </footer>
+            </section>
           </div>
         </div>
       </article>

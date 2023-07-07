@@ -1,6 +1,5 @@
 import { currentDayName } from '@/lib/utils/dateUtils'
 import Link from './Link'
-import NowPlayingFooter from './NowPlayingFooter'
 import SocialIcon from '@/components/social-icons'
 import siteMetadata from '@/data/siteMetadata'
 
@@ -23,13 +22,12 @@ export default function Footer() {
   )
 }
 
-{
-  /*export default function Footer() {
+/*export default function Footer() {
   return (
     <footer>
       <div className="mt-10 flex flex-col items-center">
         <div className="">
-          <NowPlayingFooter />
+          < />
         </div>
         <div className="mb-2 hidden text-sm text-gray-500 dark:text-gray-400 md:flex">
           <div className="mx-1">
@@ -61,4 +59,3 @@ export default function Footer() {
     </footer>
   )
 } */
-}
